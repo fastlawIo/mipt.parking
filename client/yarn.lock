@@ -915,6 +915,14 @@
     "@types/react" "*"
     "@types/react-native" "*"
 
+"@types/react-native-video@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@types/react-native-video/-/react-native-video-3.1.1.tgz#a1ef9c1807a0e469f3e38a520c35d03da2a6a8b5"
+  integrity sha512-OCpXHt59maFeXTbS2hnj1+G6MzS3lGnHfSxwT4Zevbe3VWXldqz5vvwyC/on6xZooDoR+YDtwBBZgSDmdAXdiA==
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
+
 "@types/react-native@*", "@types/react-native@^0.57.37":
   version "0.57.37"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.57.37.tgz#8cc9d142d5c6a2b7580fec9673984edfbd125194"
@@ -5247,11 +5255,6 @@ jws@^3.1.4:
     jwa "^1.2.0"
     safe-buffer "^5.0.1"
 
-keymirror@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/keymirror/-/keymirror-0.1.1.tgz#918889ea13f8d0a42e7c557250eee713adc95c35"
-  integrity sha1-kYiJ6hP40KQufFVyUO7nE63JXDU=
-
 kind-of@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-1.1.0.tgz#140a3d2d41a36d2efcfa9377b62c24f8495a5c44"
@@ -7052,6 +7055,13 @@ react-native-snap-carousel@^3.7.5:
     prop-types "^15.6.1"
     react-addons-shallow-compare "15.6.2"
 
+react-native-svg-uri@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/react-native-svg-uri/-/react-native-svg-uri-1.2.3.tgz#2f67f30564068a0fee68a751845332a5185a1aab"
+  integrity sha1-L2fzBWQGig/uaKdRhFMypRhaGqs=
+  dependencies:
+    xmldom "^0.1.22"
+
 react-native-svg@8.0.10:
   version "8.0.10"
   resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-8.0.10.tgz#b07e2342d1486220f5fda1a584e316e7d2d1f392"
@@ -7090,15 +7100,6 @@ react-native-vector-icons@6.1.0:
     lodash "^4.0.0"
     prop-types "^15.6.2"
     yargs "^8.0.2"
-
-react-native-video@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/react-native-video/-/react-native-video-4.4.0.tgz#18012cb8ad90aac42be3d04c92430f820f3ab03b"
-  integrity sha512-QXdud1JII1tuTVeYAedWqRJnf8eDuY87ucSXdERuWQb9umuLVbkF1BcAckhiWf3/+R4YdKBFR0nY2n4o8e0qkg==
-  dependencies:
-    keymirror "^0.1.1"
-    prop-types "^15.5.10"
-    shaka-player "^2.4.4"
 
 react-native-view-shot@2.5.0:
   version "2.5.0"
@@ -7759,11 +7760,6 @@ setprototypeof@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.0.tgz#d0bd85536887b6fe7c0d818cb962d9d91c54e656"
   integrity sha512-BvE/TwpZX4FXExxOxZyRGQQv651MSwmWKZGqvmPcRIjDqWub67kTKuIMx43cZZrS/cBBzwBcNDWoFxt2XEFIpQ==
-
-shaka-player@^2.4.4:
-  version "2.4.7"
-  resolved "https://registry.yarnpkg.com/shaka-player/-/shaka-player-2.4.7.tgz#8532e53ba7d8781b0785b552c7c68681c13c3206"
-  integrity sha512-KXYVB7snrrmcmDvusf2IIGOXZCvrlb6vXkl1q0pXP/QdUkvHm2SsW6jIXKvDz9xsvs9Pt/R7tm8POgfUOzybcQ==
 
 shebang-command@^1.2.0:
   version "1.2.0"
@@ -8952,7 +8948,7 @@ xmldoc@^0.4.0:
   dependencies:
     sax "~1.1.1"
 
-xmldom@0.1.x, xmldom@^0.1.27:
+xmldom@0.1.x, xmldom@^0.1.22, xmldom@^0.1.27:
   version "0.1.27"
   resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
   integrity sha1-1QH5ezvbQDr4757MIFcxh6rawOk=
